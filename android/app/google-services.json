@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619816559750",
+    "project_id": "vipin-final",
+    "storage_bucket": "vipin-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619816559750:android:bd1a61e2269e432aa89d07",
+        "android_client_info": {
+          "package_name": "com.example.vipin_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619816559750-laa4p5hfr7q2iqktop37fn8t0kf4bdmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5R4jq2F37YunEC3bvsjlL6CjjGUxs94s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619816559750-laa4p5hfr7q2iqktop37fn8t0kf4bdmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
