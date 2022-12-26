@@ -7,6 +7,7 @@ import 'package:vipin_final/feature/profile/view/profile_page.dart';
 import 'package:vipin_final/feature/setting/view/setting_view.dart';
 
 
+
 class FetchupView extends GetView<FetchupController> {
   FetchupView({super.key});
 
