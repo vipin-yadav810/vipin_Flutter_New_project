@@ -18,11 +18,9 @@ class SignupRepoImpl implements SignupRepo {
 
 
   @override
-  Future<SignupResponse> signupAPI(String name, String emailId, String password,
-      String phoneNumber) async {
+  Future<SignupResponse> signupAPI(String name, String emailId, String password, String phoneNumber) async {
     // TODO: implement
-    final response = await _httpService.signupAPIRequest(
-        name, emailId, password, phoneNumber);
+    final response = await _httpService.signupAPIRequest(name, emailId, password, phoneNumber);
     Map<String, dynamic> ResponseMap = Map.from(jsonDecode(response.data));
     return SignupResponse.fromJson(ResponseMap);
   }

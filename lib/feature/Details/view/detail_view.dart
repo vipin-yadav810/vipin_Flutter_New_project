@@ -9,7 +9,7 @@ class DetailView extends GetView<DetailController>{
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-
+             title: Text('detail page'),
 
       ),
 
@@ -24,7 +24,7 @@ class DetailView extends GetView<DetailController>{
 
 
                Form(
-                key: controller.loginFormKey,
+                key: controller.LoginFormKey,
                 child: Column(
                   children: [
                     Padding(padding: EdgeInsets.only(

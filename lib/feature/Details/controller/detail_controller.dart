@@ -13,7 +13,7 @@ class DetailController extends GetxController{
 
 
 
-  final GlobalKey<FormState> loginFormKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> LoginFormKey = GlobalKey<FormState>();
 
   SignupRepoImpl _signupRepo = Get.find<SignupRepoImpl>();
 
@@ -25,11 +25,11 @@ class DetailController extends GetxController{
 
 
   signupAPI()async{
-    var isvalide =loginFormKey.currentState?.validate();
+    var isvalide =LoginFormKey.currentState?.validate();
 
     if(isvalide==true){
       Get.toNamed(RouteConstant.login);
-      final responce = await _signupRepo.signupAPI(name.text, emailId.text, password.text, phoneNumber.text);
+      final responce = await _signupRepo.signupAPI(name.text,emailId.text,password.text,phoneNumber.text);
 
 
 
