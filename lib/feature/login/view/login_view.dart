@@ -15,6 +15,7 @@ class LoginView extends GetView<LoginController>{
 
       ),
     body: SingleChildScrollView(
+      //this is new body
       child: Center(
         child: Container(
           child: Column(
